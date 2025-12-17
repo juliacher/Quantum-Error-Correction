@@ -17,7 +17,7 @@ The project demonstrates how redundancy and majority-vote decoding can suppress 
 ├── src/
 │   └── QRepetitionCode.ipynb
 ├── report/
-│   └── LaTeX source of the accompanying report
+│   └── Report in pdf format
 ├── latex/
 │   └── Supporting LaTeX material
 └── README.md
