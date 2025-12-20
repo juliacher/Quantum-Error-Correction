@@ -33,18 +33,37 @@ The project demonstrates how redundancy and majority-vote decoding can suppress 
 
 ---
 
+## Requirements
+
+- **Python:** 3.9 or newer  
+  (tested with Python 3.13)
+
+- **Python libraries:**
+  - qiskit
+  - qiskit-aer
+  - numpy
+  - matplotlib
+  - pylatexenc
+
+---
+## Running the code
+
+1. Open the Jupyter notebook:
+   ```bash
+   jupyter notebook src/QRepetitionCode.ipynb
+   ```
+
+2. Run all cells from top to bottom to:
+   - construct the encoding and syndrome extraction circuits,
+   - simulate single-qubit bit-flip errors,
+   - verify syndrome measurements,
+   - visualize the quantum circuits,
+   - reproduce the reported results.
+
+---
 ## Reproducibility
 
 All simulations can be reproduced by running `QRepetitionCode.ipynb` from start to finish. The notebook contains the complete implementation and generates all figures used in the report.
-
----
-
-## Requirements
-
-- Python 3.9+
-- Qiskit
-- NumPy
-- Matplotlib
 
 ---
 
